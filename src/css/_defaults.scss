@@ -1,15 +1,22 @@
+
+$headline-font: 'Graduate';
+$h2-font: 'Arvo';
+
+
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans';
     line-height: 1.4em;
+    font-size: 1em;
     background: #FFF;
-    color: #444;
+    color: white;
+    letter-spacing: 1px;
 }
 
-h1 { font-size: 2em; margin: .67em 0 }
-h2 { font-size: 1.5em; margin: .75em 0 }
-h3 { font-size: 1.17em; margin: .83em 0 }
-h5 { font-size: .83em; margin: 1.5em 0 }
-h6 { font-size: .75em; margin: 1.67em 0 }
+h1 { font-size: 4em;  }
+h2 { font-size: 1.5em; font-family: 'Arvo' }
+h3 { font-size: 1.17em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
 h1, h2, h3, h4,
 h5, h6 {
   font-weight: bolder

@@ -1,1 +1,1 @@
-app.showInitialPage();
+// app.showInitialPage();
