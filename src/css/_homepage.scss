@@ -143,6 +143,10 @@ button:hover {
 /* ---- media queries! ----- */ 
 
 @media screen and (max-width: 1149px) {
+  #homepage-container {
+    height: 100%
+  }
+
   .button-section {
     flex-direction: column;
     margin-bottom: 2em;
@@ -152,6 +156,7 @@ button:hover {
   }
   .logo-image {
     height: 6em;
+    margin-top: 4em;
   }
 }
 
