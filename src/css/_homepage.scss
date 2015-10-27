@@ -63,13 +63,14 @@ p {
 	justify-content: space-between;
 }
 
- button, a{
+ button {
   	border: 2px solid black;
   	background-color: transparent;
   	min-height: 40px;
   	min-width: 150px;
   	font-size: 1em;
   	font-family: 'Arvo';
+    flex-direction: row;
 
   }
 
@@ -83,7 +84,7 @@ button:hover {
 
 
 
-/*MODAL PART! */
+/* ---- MODAL PART! ------- */
 
 
 .outer-modal {
@@ -139,6 +140,35 @@ button:hover {
 	margin: 0 auto;	
 }
 
+/* ---- media queries! ----- */ 
+
+@media screen and (max-width: 1149px) {
+  .button-section {
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+  button {
+    margin: .5em;
+  }
+  .logo-image {
+    height: 6em;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .headline-text {
+    font-size: 3em;
+  }
+  .logo-image {
+    height: 6em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .headline-text {
+    font-size: 2em;
+  }
+}
 
 
 
