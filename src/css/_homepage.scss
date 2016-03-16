@@ -26,12 +26,12 @@
    justify-content: space-between;
    z-index: 20;
    text-align: center;
-  
+
   }
 
   .logo-image {
   	height: 8em;
-  	opacity: .6;
+  	opacity: .8;
   	align-items: center;
   	margin-bottom: 1em;
   }
@@ -56,7 +56,6 @@ p {
 
 	color: white;
 }
-
 
 .button-section {
 	display: flex;
@@ -104,20 +103,22 @@ button:hover {
 	position: relative;
 	width: 50%;
 	height: 30em;
-	background-color: rgb(72, 69, 69);
-    border: 6px solid black;
+	background-color: #8f9991;
+    // border: 6px solid black;
     align-items: center;
     justify-content: center;
     padding: 1em;
     transition: all 3s;
+		box-shadow: -6px 5px 202px -38px rgba(0,0,0,0.75);
 
 
 }
 
 .x-button {
 	position: absolute;
-	font-family: 'Graduate';
+	font-family: sans-serif;
 	font-size: 2em;
+	padding: .5em;
 	color: black;
 	right: 0;
 	top: 0;
@@ -129,7 +130,7 @@ button:hover {
 	text-align: center;
 	margin-top: 4em;
 	padding: 1em;
-	 
+
 }
 
 .learn-more-content {
@@ -137,10 +138,50 @@ button:hover {
 	overflow: scroll;
 	max-width: 95%;
 	align-items: center;
-	margin: 0 auto;	
+	margin: 0 auto;
+
 }
 
-/* ---- media queries! ----- */ 
+.follow-content {
+  height: 100%;
+  overflow: scroll;
+  // max-width: 95%;
+  align-items: center;
+  text-align: center;
+  margin-top: 4em;
+	// margin-right: 0;
+
+	.signup-text {
+		margin-top: 2em;
+	}
+
+	.fa {
+		font-size: 2em;
+	}
+}
+
+.subtle-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.subtle-link:hover {
+  text-decoration: none;
+}
+
+input {
+	border: 2px solid black;
+	background-color: transparent;
+	height: 2em;
+	width: 12em;
+	margin-bottom: 1em;
+}
+
+input:focus {
+	outline: none;
+}
+
+/* ---- media queries! ----- */
 
 @media screen and (max-width: 1149px) {
   #homepage-container {
@@ -158,6 +199,10 @@ button:hover {
     height: 6em;
     margin-top: 4em;
   }
+
+  .inner-modal {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 725px) {
@@ -174,6 +219,3 @@ button:hover {
     font-size: 2em;
   }
 }
-
-
-
